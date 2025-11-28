@@ -4,8 +4,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity pattern_matcher is
   generic(
-    PATTERN_LENGTH : integer := 4;
-    PATTERN: std_logic_vector := x"DEAD"
+    PATTERN : std_logic_vector : "00000000"
   );
   port(
     clk : in std_logic;
@@ -16,7 +15,7 @@ entity pattern_matcher is
 end entity pattern_matcher;
 
 architecture behavorial of pattern_matcher is
-  signal shift_reg : std_logic_vector(PATTERN_LENGTH*8-1 downto 0) := (others => '0');
+  signal shift_reg : std_logic_vector(PATTERN'length-1 downto 0) := (others => '0');
 begin
 
   process(clk,rst)
