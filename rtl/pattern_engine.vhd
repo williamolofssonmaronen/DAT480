@@ -12,23 +12,7 @@ entity pattern_engine is
   );
 end entity pattern_matcher;
 
-architecture behavorial of pattern_matcher is
-  component pattern_matcher
-  generic(
-    PATTERN_LENGTH : integer := 4;
-    PATTERN: std_logic_vector := x"DEAD"
-  );
-  port(
-    clk : in std_logic;
-    rst : in std_logic;
-    data_in : in std_logic_vector(7 downto 0);
-    match : out std_logic
-  );
-  end component pattern_matcher;
-
+architecture behavorial of pattern_engine is
 begin
-
-  for i in 0 to 3 generate
-    
 
 end architecture behavorial;
