@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dat480"
+version = "0.1.0"
+description = ""
+authors = ["William Olofsson Maronen <williamolofssonmaronen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+cocotb = "^2.0.1"
+ty = "^0.0.1a27"
+pytest = "^9.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
