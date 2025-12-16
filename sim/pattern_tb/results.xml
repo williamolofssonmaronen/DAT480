@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1764605451" />
-    <testcase name="feed_patterns" classname="pattern_tb" file="/home/maronen/git/DAT480/sim/pattern_tb/pattern_tb.py" lineno="5" time="1.5355660915374756" sim_time_ns="31190.0" ratio_time="20311.727493781276" />
+    <property name="random_seed" value="1764611067" />
+    <testcase name="feed_patterns" classname="pattern_tb" file="/home/maronen/git/DAT480/sim/pattern_tb/pattern_tb.py" lineno="5" time="1.5700907707214355" sim_time_ns="31190.0" ratio_time="19865.09352301244" />
   </testsuite>
 </testsuites>
